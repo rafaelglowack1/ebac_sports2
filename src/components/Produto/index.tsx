@@ -1,6 +1,5 @@
-import { Produto as ProdutoType } from '../../App'
+import type { Produto as ProdutoType } from '../../types'
 import * as S from './styles'
-
 type Props = {
   produto: ProdutoType
   aoComprar: (produto: ProdutoType) => void
